@@ -75,3 +75,25 @@ a:hover {
     background-color: white;
     color: steelblue;
 }
+
+/*practice week 5*/
+
+footer p {
+    padding: 25px;
+}
+
+h1 {
+    margin: 50px 0;
+}
+
+nav {
+    padding: 25px;
+}
+
+a {
+    padding: 25px;
+}
+
+body {
+    margin: 0
+}
