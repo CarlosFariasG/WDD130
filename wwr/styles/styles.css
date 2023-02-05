@@ -9,6 +9,7 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-img {
@@ -34,6 +35,9 @@ main section {
 body {
     background-color: #507088;
     font-family: "EB Garamond", serif, "times new roman", georgia;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -48,6 +52,7 @@ nav a:hover {
 .home-title {
     color: white;
     font-family: 'Monserrat', sans-serif, verdana, tahoma;
+    font-size: 2em;
 }
 
 h4 {
@@ -57,12 +62,15 @@ h4 {
 h2 {
     font-family: 'Monserrat', sans-serif, verdana, tahoma;
     color: white;
+    margin: 0;
 }
 
 .book, .join {
     background-color: #002f53;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
 }
 
 .book:hover, .join:hover {
@@ -76,6 +84,8 @@ h2 {
 
 .msg {
     background-color: #002f53;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
@@ -85,11 +95,18 @@ h2 {
 
 .msg p {
     color: white;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #002f53;
     color: white;
+    padding: 25px 50px;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 footer a {
@@ -111,4 +128,9 @@ footer p a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+
+#logo_link {
+    padding-top: 5px;
 }
