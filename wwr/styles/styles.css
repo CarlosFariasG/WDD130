@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Montserrat:wght@800&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -31,6 +33,7 @@ main section {
 
 body {
     background-color: #507088;
+    font-family: "EB Garamond", serif, "times new roman", georgia;
 }
 
 header {
@@ -44,9 +47,15 @@ nav a:hover {
 
 .home-title {
     color: white;
+    font-family: 'Monserrat', sans-serif, verdana, tahoma;
 }
 
 h4 {
+    color: white;
+}
+
+h2 {
+    font-family: 'Monserrat', sans-serif, verdana, tahoma;
     color: white;
 }
 
@@ -71,6 +80,7 @@ h4 {
 
 .msg h2 {
     color: white;
+    font-family: 'Monserrat', sans-serif, verdana, tahoma;
 }
 
 .msg p {
