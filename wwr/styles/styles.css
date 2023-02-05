@@ -73,6 +73,7 @@ h2 {
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -82,6 +83,14 @@ h2 {
 
 #background {
     background-color: #002f53;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 .rivers-card, .camping-card, .rapids-card {
