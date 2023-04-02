@@ -5,7 +5,7 @@
     margin: 0 auto;
 }
 
-h1 , h2, footer {
+h1 , h2, footer, nav {
   font-family: "EB Garamond", "Times New Roman", serif;
 }
 
@@ -277,7 +277,7 @@ footer p a:hover {
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
+.aactive, .accordion:hover {
   background-color: #ccc;
 }
 
@@ -305,6 +305,6 @@ footer p a:hover {
   margin-left: 5px;
 }
 
-.active:after {
+.aactive:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
