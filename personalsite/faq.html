@@ -21,7 +21,7 @@
         </header>
         <main>
             <h1>Frequently Asked Questions</h1>
-            <img class="faq_main_img" src="images/rsz_faq-1.jpg" alt="a man thinking" style="width: 100%;">
+            <img class="faq_main_img" src="images/rsz_faq-1.jpg" alt="a man thinking" >
             <button class="accordion">Question 1</button>
                 <div class="panel">
                 <p>Lorem ipsum...</p>
@@ -74,5 +74,21 @@
         });
         }
     </script>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+              panel.style.maxHeight = null;
+            } else {
+              panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+          });
+        }
+        </script>
 </body>
 </html>
