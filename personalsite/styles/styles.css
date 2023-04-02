@@ -5,6 +5,14 @@
     margin: 0 auto;
 }
 
+h1 , h2, a, footer:a {
+  font-family: "EB Garamond", "Times New Roman", serif;
+}
+
+p {
+  font-family: "Montserrat", arial, sans-serif;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
